@@ -1,0 +1,10 @@
+/* By default, the background-image property repeats an image both horizontally and vertically.*/
+body {
+  background-image: url("/Images/background_image.jfif");
+  background-repeat: repeat-x;
+}
+
+/* uncomment the below section and comment the above section to see the difference */
+/* uncomment the below section and comment the above section to see the diffrence */
+/*The background-position property is used to specify the position of the background image.*/
+/*# sourceMappingURL=scss_background_repeat_style.css.map */

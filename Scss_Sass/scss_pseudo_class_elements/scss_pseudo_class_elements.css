@@ -1,0 +1,9 @@
+p i:first-child {
+  color: blue;
+}
+
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+/*# sourceMappingURL=scss_pseudo_class_elements.css.map */

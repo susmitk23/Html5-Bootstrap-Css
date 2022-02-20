@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;8BAI8B;AAC9B,AAAA,GAAG,CAAC,CAAC,CAAC;EACF,gBAAgB,EAAE,MAAM;CACzB;;AACH,AAAA,GAAG,GAAG,CAAC,CAAC;EACJ,gBAAgB,EAAE,MAAM;CACzB;;AACH,AAAA,GAAG,GAAG,CAAC,CAAC;EACJ,gBAAgB,EAAE,MAAM;CACzB;;AACH,AAAA,GAAG,GAAG,CAAC,CAAC;EACJ,gBAAgB,EAAE,MAAM;CACzB",
+    "sources": [
+        "scss_combinators.scss"
+    ],
+    "names": [],
+    "file": "scss_combinators.css"
+}

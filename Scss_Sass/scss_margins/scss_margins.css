@@ -1,0 +1,51 @@
+/* Margins are used to create space around elements, outside of any defined borders.There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+CSS has properties for specifying the margin for each side of an element:
+margin-top
+margin-right
+margin-bottom
+margin-left
+length - specifies a margin in px, pt, cm, etc.
+% - specifies a margin in % of the width of the containing element */
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+
+p {
+  border: 1px solid black;
+  margin: 25px 50px 75px 100px;
+  background-color: lightblue;
+}
+
+h2 {
+  border: 1px solid red;
+  margin: 25px 50px 75px;
+  background-color: lightblue;
+}
+
+h1 {
+  border: 1px solid blue;
+  margin: 25px 50px;
+  background-color: lightblue;
+}
+
+h5 {
+  border: 1px solid gray;
+  margin: auto;
+  width: 300px;
+  margin: 25px;
+}
+
+.inherit {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+p.ex {
+  margin-left: inherit;
+}
+/*# sourceMappingURL=scss_margins.css.map */

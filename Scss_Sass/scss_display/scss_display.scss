@@ -1,0 +1,46 @@
+// A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+// Examples of block-level elements:
+// <div>
+// <h1> - <h6>
+// <p>
+// <form>
+// <header>
+// <footer>
+// <section>
+// An inline element does not start on a new line and only takes up as much width as necessary.
+// Examples of inline elements:
+// <span>
+// <a>
+// <img>
+// display: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them. 
+li {
+    display: inline;
+  }
+span {
+    display: block;
+  }
+//   The following example shows the different behavior of display: inline, display: inline-block and display: block:
+span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+  }
+  span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+  }
+  span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+  }

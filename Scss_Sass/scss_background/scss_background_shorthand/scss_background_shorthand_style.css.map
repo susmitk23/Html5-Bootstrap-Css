@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,kJAAkJ;AAElJ,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,OAAO,CAAC,oCAAoC,CAAC,SAAS,CAAC,KAAK,CAAC,GAAG;CAC/E",
+    "sources": [
+        "scss_background_shorthand_style.scss"
+    ],
+    "names": [],
+    "file": "scss_background_shorthand_style.css"
+}

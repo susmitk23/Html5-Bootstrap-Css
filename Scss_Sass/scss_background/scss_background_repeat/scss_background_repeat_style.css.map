@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,iGAAiG;AAEjG,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,oCAAoC;EACtD,iBAAiB,EAAE,QAAQ;CAC9B;;AAGD,qFAAqF;AAOrF,oFAAoF;AAGpF,6FAA6F",
+    "sources": [
+        "scss_background_repeat_style.scss"
+    ],
+    "names": [],
+    "file": "scss_background_repeat_style.css"
+}

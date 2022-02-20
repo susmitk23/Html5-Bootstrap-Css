@@ -1,0 +1,22 @@
+/*Scss and Sass reduces repetition of CSS and therefore saves time. SASS (Syntactically Awesome Stylesheet) Scss (Sassy CSS) //Sass has strict indention, In Sass we don't use curly backets.
+Any valid CSS is valid SCSS whereas css code cannot be used as SASS. Scss compiler converts 
+To run scss and sass you need to install Live Sass compiler and run it on live server.
+scss compiler compiles the code and  convert it into css and  so we can see css file created after we run scss file 
+also a css.map file is created. It is a JSON format file that links the CSS file to its source file. you can also delete the .css.map file */
+
+
+/* Define standard variables and values you can also use --watch command to run sass file */
+
+
+/* : is used to give a value to a property */
+
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+body {
+    background-color: $bgcolor; // this is a variable 
+    color: $textcolor;
+    font-size: $fontsize;
+}
+
+// to use Sass remove curly backets and add extension .sass

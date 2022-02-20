@@ -1,0 +1,15 @@
+/* The @extend directive lets you share a set of CSS properties from one selector to */
+
+.button {
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-submit {
+    @extend .button; // button class exteded here
+    background-color: green;
+    color: white;
+}

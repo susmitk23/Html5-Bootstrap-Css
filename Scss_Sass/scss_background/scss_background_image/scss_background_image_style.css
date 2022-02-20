@@ -1,0 +1,11 @@
+/* The background-image property specifies an image to use as the background of an element.
+By default, the image is repeated so it covers the entire element.*/
+body {
+  background-image: url("/Images/background_image.jfif");
+}
+
+p {
+  color: white;
+  font-size: larger;
+}
+/*# sourceMappingURL=scss_background_image_style.css.map */

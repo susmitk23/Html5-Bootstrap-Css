@@ -1,0 +1,21 @@
+/*There are four different combinators in CSS:
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)*/
+div p {
+  background-color: yellow;
+}
+
+div > p {
+  background-color: yellow;
+}
+
+div + p {
+  background-color: yellow;
+}
+
+div ~ p {
+  background-color: yellow;
+}
+/*# sourceMappingURL=scss_combinators.css.map */

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;mDAGmD;ACHnD,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,GAAG;CACb;;ADID,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "scss_importing_file_style.scss",
+        "_scss_partial_style.scss"
+    ],
+    "names": [],
+    "file": "scss_importing_file_style.css"
+}

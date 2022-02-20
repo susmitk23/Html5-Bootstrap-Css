@@ -1,0 +1,37 @@
+/*The id of an element is unique within a page, so the id selector is used to select one unique element*/
+
+
+/*To select an element with a specific id, write a hash (#) character, followed by the id of the element.*/
+
+#para {
+    text-align: center;
+    color: red;
+}
+
+
+/*To select elements with a specific class, write a period (.) character, followed by the class name*/
+
+
+/*HTML elements can also refer to more than one class.*/
+
+.class {
+    text-align: center;
+    color: blue;
+}
+
+
+/*The universal selector (*) selects all HTML elements on the page.*/
+
+* {
+    text-decoration: underline;
+}
+
+
+/* The grouping selector selects all the HTML elements with the same style definitions.*/
+
+
+/*here directly tag name is taken to group elements*/
+
+p {
+    font-size: larger;
+}

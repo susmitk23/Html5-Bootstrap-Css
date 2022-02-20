@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,GAAG;CACb",
+    "sources": [
+        "scss_opacity.scss"
+    ],
+    "names": [],
+    "file": "scss_opacity.css"
+}

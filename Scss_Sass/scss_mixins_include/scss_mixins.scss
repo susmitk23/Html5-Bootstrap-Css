@@ -1,0 +1,31 @@
+/* @mixins directive  lets you to reuse the code
+syntax:
+@mixin name {
+  property: value;
+  property: value;
+  ...
+}*/
+
+@mixin important {
+    color: green;
+    font-size: 25px;
+}
+
+
+/* @mixins with variable*/
+
+
+/* similar to functions */
+
+@mixin bordered($color, $width) {
+    border: $width solid $color;
+}
+
+
+/* @include directive is used to include a mixin*/
+
+.primary {
+    @include important;
+    @include bordered(blue, 2px); //  passing arguments to bordered mixin 
+    background-color: lightblue;
+}

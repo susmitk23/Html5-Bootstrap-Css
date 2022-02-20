@@ -1,0 +1,12 @@
+.div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+
+.max {
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+}
+/*# sourceMappingURL=scss_height_width.css.map */

@@ -1,0 +1,16 @@
+table, th, td {
+  border: 1px solid;
+}
+td {
+  text-align: center;
+}
+th, td {
+  padding: 15px;
+}
+tr:hover {
+  background-color: coral;
+}
+.overflow {
+  overflow-x: auto;
+}
+/*# sourceMappingURL=scss_table.css.map */

@@ -1,0 +1,49 @@
+/*Padding is used to create space around an element's content, inside of any defined borders.
+SCSS has properties for specifying the padding for each side of an element:
+padding-top
+padding-right
+padding-bottom
+padding-left
+length - specifies a padding in px, pt, cm, etc.
+% - specifies a padding in % of the width of the containing element
+inherit - specifies that the padding should be inherited from the parent element*/
+h2 {
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+h3 {
+  border: 1px solid black;
+  padding: 25px 50px 75px 100px;
+  background-color: lightblue;
+}
+
+h4 {
+  border: 1px solid black;
+  padding: 25px 50px 75px;
+  background-color: lightblue;
+}
+
+h5 {
+  border: 1px solid black;
+  padding: 25px 50px;
+  background-color: lightblue;
+}
+
+div.eg1 {
+  width: 300px;
+  background-color: yellow;
+}
+
+div.eg2 {
+  width: 300px;
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: lightblue;
+}
+/*# sourceMappingURL=scss_padding.css.map */

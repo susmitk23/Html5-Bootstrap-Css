@@ -1,0 +1,35 @@
+// The border-style property specifies what kind of border to display.
+p{
+&.dotted {border-style: dotted;} // dotted - Defines a dotted border
+&.dashed {
+    border-style: dashed;   // dashed - Defines a dashed border
+    // The border-width property specifies the width of the four borders.The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick:
+    border-width: 15px 5px 4px 15px;  /* 25px top, 10px right, 4px bottom and 35px left */
+}  
+&.solid {
+    border-style: solid; // solid - Defines a solid border
+    border-color: blue; // The border-color property is used to set the color of the four borders.
+    // The color can be set by:
+    // name - specify a color name, like "red"
+    // HEX - specify a HEX value, like "#ff0000"
+    // RGB - specify a RGB value, like "rgb(255,0,0)"
+    // HSL - specify a HSL value, like "hsl(0, 100%, 50%)"
+    // transparent Note: If border-color is not set, it inherits the color of the element.
+}    
+&.double {border-style: double;} // double - Defines a double border
+&.groove {border-style: groove;}  // groove - Defines a 3D grooved border. The effect de&ends on the border-color value
+&.ridge {border-style: ridge;}   // ridge - Defines a 3D ridged border. The effect depends on the border-color value
+&.inset {border-style: inset;}  // inset - Defines a 3D inset border. The effect depends on the border-color value
+&.outset {border-style: outset;}  // outset - Defines a 3D outset border. The effect depends on the border-color value
+&.none {border-style: none;}  // none - Defines no border
+&.hidden {border-style: hidden;}  // hidden - Defines a hidden border 
+&.mix {border-style: dotted dashed solid double;}  //mix border In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left):
+// Eg : border-top-style: dotted;
+&.shorthand {border: 5px solid red;} // The border property is a shorthand property for the following individual border properties:
+// border-width
+// border-style (required)
+// border-color, You can also specify all the individual border properties for just one side: 
+// eg : border-left: 6px solid red;
+&.rounded{ 
+    border: 2px solid red;
+    border-radius: 5px;}}  //The border-radius property is used to add rounded borders to an element

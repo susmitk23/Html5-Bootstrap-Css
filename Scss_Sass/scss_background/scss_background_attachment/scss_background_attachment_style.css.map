@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,uGAAuG;AAEvG,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,oCAAoC;EACtD,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,SAAS;EAC9B,qBAAqB,EAAE,KAAK;CAE/B",
+    "sources": [
+        "scss_background_attachment_style.scss"
+    ],
+    "names": [],
+    "file": "scss_background_attachment_style.css"
+}

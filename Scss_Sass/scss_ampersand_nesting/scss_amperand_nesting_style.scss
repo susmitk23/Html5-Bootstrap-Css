@@ -1,0 +1,11 @@
+/* Ampersand is used avoid repetition. here & represents the button class Sass basically uses the concept 
+of DRY Don't repeat yourself.*/
+
+.button {
+    &:hover {
+        background-color: blue;
+    }
+    &:active {
+        background-color: red;
+    }
+}

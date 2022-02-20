@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;+BAC+B;AAE/B,AACI,OADG,AACF,MAAM,CAAC;EACJ,gBAAgB,EAAE,IAAI;CACzB;;AAHL,AAII,OAJG,AAIF,OAAO,CAAC;EACL,gBAAgB,EAAE,GAAG;CACxB",
+    "sources": [
+        "scss_amperand_nesting_style.scss"
+    ],
+    "names": [],
+    "file": "scss_amperand_nesting_style.css"
+}

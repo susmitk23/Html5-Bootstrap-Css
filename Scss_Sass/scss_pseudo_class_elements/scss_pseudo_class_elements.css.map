@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,CAAC,CAAC,CAAC,AAAA,YAAY,CAAC;EACZ,KAAK,EAAE,IAAI;CACZ;;AAEH,AAAA,CAAC,AAAA,YAAY,CAAC;EACV,KAAK,EAAE,OAAO;EACd,YAAY,EAAE,UAAU;CACzB",
+    "sources": [
+        "scss_pseudo_class_elements.scss"
+    ],
+    "names": [],
+    "file": "scss_pseudo_class_elements.css"
+}

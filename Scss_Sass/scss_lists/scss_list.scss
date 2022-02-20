@@ -1,0 +1,9 @@
+// The list-style-type property specifies the type of list item marker.
+// unordered lists (<ul>) - the list items are marked with bullets
+// ordered lists (<ol>) - the list items are marked with numbers or letters
+ul.a {
+    list-style-type: circle;
+  }
+ol.b {
+    list-style-type: upper-roman;
+  }

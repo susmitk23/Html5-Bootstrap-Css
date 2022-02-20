@@ -1,0 +1,14 @@
+/* The @extend directive lets you share a set of CSS properties from one selector to */
+.button, .button-submit {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-submit {
+  background-color: green;
+  color: white;
+}
+/*# sourceMappingURL=scss_extends_inheritance_style.css.map */

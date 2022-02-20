@@ -1,0 +1,17 @@
+/* @mixins directive  lets you to reuse the code
+syntax:
+@mixin name {
+  property: value;
+  property: value;
+  ...
+}*/
+/* @mixins with variable*/
+/* similar to functions */
+/* @include directive is used to include a mixin*/
+.primary {
+  color: green;
+  font-size: 25px;
+  border: 2px solid blue;
+  background-color: lightblue;
+}
+/*# sourceMappingURL=scss_mixins.css.map */

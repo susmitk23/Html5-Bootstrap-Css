@@ -1,0 +1,11 @@
+/* partial Sass file is named with a leading underscore it does not create css file like scss 
+rather Sass will not transpile it.However, when you want to import a file,
+you do not need the file to be transpiled directly. 
+Files named this way are called partials in Sass.*/
+
+@import "scss_partial_style";
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: gray;
+}

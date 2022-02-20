@@ -1,0 +1,27 @@
+// A pseudo-class is used to define a special state of an element.The :first-child pseudo-class matches a specified element that is the first child of another element.
+p i:first-child {
+    color: blue;
+  }   //the selector matches the first <i> element in all <p> elements:
+  //   The ::first-line pseudo-element is used to add a special style to the first line of a text.
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+//   p::after {
+//     content: " - Remember this";  // Insert something after the content of each <p> element
+//   }
+//   p::before {
+//     content: "Read this: "; //Insert something before the content of each <p> element
+//   }
+//   p::first-letter {
+//     font-size: 200%;         // Selects the first letter of each <p> element
+//     color: #8A2BE2;
+//   }
+//   ::marker {                 // Selects the markers of list items
+//     color: red;
+//   }
+//   ::selection {              // Selects the portion of an element that is selected by a user
+//     color: red;
+//     background: yellow;
+//   }
+// uncomment one at a time to see the effect

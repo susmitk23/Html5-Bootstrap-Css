@@ -1,0 +1,64 @@
+.color {
+  color: blue;
+  text-align: center;
+}
+
+.direction {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+h1 {
+  text-decoration: overline;
+}
+
+h2 {
+  text-decoration: line-through;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p.overline {
+  text-decoration: overline underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.indent {
+  text-indent: 50px;
+}
+
+.spacing {
+  letter-spacing: 5px;
+}
+
+.small {
+  line-height: 0.8;
+}
+
+.one {
+  word-spacing: 10px;
+}
+
+.whitespace {
+  white-space: nowrap;
+}
+
+.shadow {
+  text-shadow: 2px 2px red;
+  font-style: italic;
+  font-size: 20px;
+}
+/*# sourceMappingURL=scss_text.css.map */

@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid;
+  }
+  td {
+    text-align: center; //The text-align property sets the horizontal alignment (like left, right, or center) of the content in <th> or <td>.
+  }
+  th, td {
+    padding: 15px; //To control the space between the border and the content in a table, use the padding property on <td> and <th> elements:
+    // border-bottom: 1px solid #ddd; Add the border-bottom property to <th> and <td> for horizontal dividers:
+  }
+  tr:hover {background-color: coral;} //Use the :hover selector on <tr> to highlight table rows on mouse over
+  // for full width table add  width: 100%; in table css
+//   The border-collapse property sets whether the table borders should be collapsed into a single border:
+.overflow{
+    overflow-x: auto;
+}

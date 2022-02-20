@@ -1,0 +1,9 @@
+/*The background-attachment property specifies whether the background image should scroll or be fixed*/
+
+body {
+    background-image: url("/Images/background_image.jfif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; // image will be fixed
+    // background-attachment: scroll; // image will scroll uncomment this line to use this property.
+}
